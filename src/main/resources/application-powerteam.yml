@@ -1,0 +1,24 @@
+spring:
+
+    #数据源配置
+    datasource:
+        #数据库连接地址
+        url: jdbc:mysql://rm-uf6ms03651x19ixgoo.mysql.rds.aliyuncs.com:3306/powerteam?useSSL=true&useUnicode=yes&characterEncoding=UTF8
+        #连接数据库用户名
+        username: root
+        #连接数据库密码
+        password: admin@601
+
+powerTeam:
+
+    #系统标题
+    title: PowerTeam
+
+    #页大小
+    pageSize: 15
+
+    #百度地图ak
+    baiduMapAk: G2zm7GgGGesyLUEoUfVF2jheDGRrkecU
+
+    #静态资源版本号
+    staticV: 20171025

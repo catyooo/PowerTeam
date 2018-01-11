@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PowerTeam:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PowerTeam.war">
+      <element id="artifact" artifact-name="PowerTeam:war exploded" />
+    </root>
+  </artifact>
+</component>
