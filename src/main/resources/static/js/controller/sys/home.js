@@ -113,6 +113,7 @@ powerteam.controller('forgot', ['$scope', '$http', '$uibModalInstance', 'ngNotif
         });
     };
 
+    // cancel
     $scope.cancel = function () {
         $uibModalInstance.dismiss('cancel');
     };
